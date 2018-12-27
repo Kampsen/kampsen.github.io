@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<!-- lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" -->
+	<head>
+		<meta charset="utf-8">
+		<title>Vue</title>
+		<script type="text/javascript" src="library/vue/vue-2.5.21.js"></script>
+		<link rel="stylesheet" href="library/bootstrap-3.3.7-dist/css/bootstrap.css" />
+	</head>
+	<body>
+		<div id="div1">
+			{{message.name}},
+			{{message.hp}}
+		</div>
+		<div id="div2">
+			<div>一共点击了 {{clickNumber}}次</div>
+			<button @click="count">点击</button>
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
