@@ -1,6 +1,10 @@
 # github-kwang.github.io
 个人博客
 
+``` javascript
+	//以下为引用HbuilderX的MarkDown帮助文档
+```
+
 # markdown - 更简洁、更高效
 =================================================
 
